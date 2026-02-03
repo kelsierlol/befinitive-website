@@ -12,12 +12,19 @@
             colors: {
               brand: {
                 DEFAULT: '#B8FF6B',
-                dark: '#262626',
-                gray: '#F5F5F5',
-              }
+                dark: '#0B0B0B',
+                gray: '#121212',
+              },
+              ink: '#F5F5F5',
+              'ink-muted': '#C9C9C9',
+              'ink-soft': '#9A9A9A',
+              surface: '#0B0B0B',
+              'surface-2': '#141414',
+              'surface-3': '#1B1B1B',
+              border: '#262626',
             },
             fontFamily: {
-              sans: ['Inter', 'sans-serif'],
+              sans: ['Basis Grotesque Mono Pro', 'Inter', 'sans-serif'],
             },
             animation: {
               'blob': 'blob 25s infinite',
@@ -41,23 +48,45 @@
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+      @font-face {
+        font-family: 'Basis Grotesque Mono Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/fonts/BasisGrotesqueMonoPro-Regular.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Basis Grotesque Mono Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url('/fonts/BasisGrotesqueMonoPro-Medium.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Basis Grotesque Mono Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('/fonts/BasisGrotesqueMonoPro-Bold.woff2') format('woff2');
+      }
+      /* Drop licensed Basis Grotesque Mono Pro files into public/fonts (same names) to enable this font. */
       body {
-        font-family: 'Inter', sans-serif;
-        background-color: #FAFAFA;
-        color: #262626;
+        font-family: 'Basis Grotesque Mono Pro', 'Inter', sans-serif;
+        background-color: #0B0B0B;
+        color: #F5F5F5;
         overflow-x: hidden;
       }
       .glass-panel {
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(18, 18, 18, 0.7);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.08);
       }
       .glass-panel-dark {
-        background: rgba(38, 38, 38, 0.8);
+        background: rgba(10, 10, 10, 0.8);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.08);
       }
       /* Custom scrollbar */
       ::-webkit-scrollbar {
@@ -67,11 +96,11 @@
         background: transparent;
       }
       ::-webkit-scrollbar-thumb {
-        background: #ccc;
+        background: #2f2f2f;
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #999;
+        background: #4a4a4a;
       }
     </style>
   <script type="importmap">

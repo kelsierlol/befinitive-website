@@ -11,13 +11,13 @@ const Footer: React.FC = () => {
             <span className="text-lg font-bold text-white">Befinitive</span>
         </div>
         
-        <div className="text-gray-500 text-sm">
+        <div className="text-ink-soft text-sm">
           © {new Date().getFullYear()} Befinitive. All rights reserved.
         </div>
 
         <div className="flex gap-6">
-           <a href="#" className="text-gray-400 hover:text-brand text-sm transition-colors">Privacy</a>
-           <a href="#" className="text-gray-400 hover:text-brand text-sm transition-colors">Terms</a>
+           <a href="#" className="text-ink-soft hover:text-brand text-sm transition-colors">Privacy</a>
+           <a href="#" className="text-ink-soft hover:text-brand text-sm transition-colors">Terms</a>
         </div>
       </div>
     </footer>

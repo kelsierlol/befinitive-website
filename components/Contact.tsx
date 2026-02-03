@@ -3,7 +3,7 @@ import { Phone, Mail, MessageCircle, MapPin } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className="py-24 bg-brand-dark text-white relative overflow-hidden">
+    <section id="contact" className="py-24 bg-surface text-ink relative overflow-hidden">
       {/* Background accents */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
       
@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
           
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to upgrade your infrastructure?</h2>
-            <p className="text-xl text-gray-400 mb-10">
+            <p className="text-xl text-ink-soft mb-10">
               Get in touch with our technical sales team directly. No automated bots, just real engineers ready to solve your problems.
             </p>
 
@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold mb-1">Headquarters</h4>
-                  <p className="text-gray-400">Mumbai, India (Serving Pan-India)</p>
+                  <p className="text-ink-soft">Mumbai, India (Serving Pan-India)</p>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg group-hover:text-brand transition-colors">Call Us Directly</h3>
-                      <p className="text-sm text-gray-400">Immediate technical support</p>
+                      <p className="text-sm text-ink-soft">Immediate technical support</p>
                     </div>
                  </div>
                  <div className="opacity-0 group-hover:opacity-100 transition-opacity text-brand">→</div>
@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg group-hover:text-[#25D366] transition-colors">WhatsApp Chat</h3>
-                      <p className="text-sm text-gray-400">Fastest response time</p>
+                      <p className="text-sm text-ink-soft">Fastest response time</p>
                     </div>
                  </div>
                  <div className="opacity-0 group-hover:opacity-100 transition-opacity text-[#25D366]">→</div>
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg group-hover:text-blue-400 transition-colors">Send an Email</h3>
-                      <p className="text-sm text-gray-400">For quotes and catalog requests</p>
+                      <p className="text-sm text-ink-soft">For quotes and catalog requests</p>
                     </div>
                  </div>
                  <div className="opacity-0 group-hover:opacity-100 transition-opacity text-blue-400">→</div>
